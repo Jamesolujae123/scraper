@@ -20,7 +20,7 @@ module.exports = (app) => {
 
   app.use(
     cors({
-      origin: ["*"],
+      origin: ["https://cartoonsarea-web-scraper-olu-jae.vercel.app"],
       methods: ["GET", "POST"],
       allowedHeaders: ["Content-Type"],
     })
